@@ -1,16 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import  DarkVariantExample  from './slider'
 import Homepage from './homepage';
-import reportWebVitals from './reportWebVitals';
 
+import ThemeSwitcher from './ThemeSwitcher';
+import reportWebVitals from './reportWebVitals';
+// Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
+// Bootstrap Bundle JS
+import "bootstrap/dist/js/bootstrap.bundle.min";
+
+import {Routes, Route, useNavigate} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Homepage/>
+<ThemeSwitcher/>
+   <DarkVariantExample/> 
+   <Homepage/>
   </React.StrictMode>
 );
 

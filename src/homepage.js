@@ -2,10 +2,9 @@ import React from 'react';
 import './Homepage.css';
 function Homepage() {
   return (
-    
     <div className="homepage">
       <header>
-        <h1 class="heading_name">Welcome to XYZ Medical Clinic</h1>
+        <h1 className="heading_name">Welcome to XYZ Medical Clinic</h1>
         <nav>
           <ul>
             <li><a href="#about">About</a></li>
@@ -34,12 +33,12 @@ function Homepage() {
       <section id="doctors">
         <h2>Meet Our Doctors</h2>
         <div className="doctor-profile">
-          <img src="doctor1.jpg" alt="Doctor Name" />
+          <img src="./images/doc1.jpg" alt="Doctor Name" />
           <h3>Dr. John Doe</h3>
           <p>Specializes in Cardiology</p>
         </div>
         <div className="doctor-profile">
-          <img src="doctor2.jpg" alt="Doctor Name" />
+          <img src="./images/doc1.jpg"  alt="Doctor Name" />
           <h3>Dr. Jane Smith</h3>
           <p>Specializes in Pediatrics</p>
         </div>
